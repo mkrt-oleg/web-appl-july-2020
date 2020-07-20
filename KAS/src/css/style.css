@@ -1,0 +1,55 @@
+body {
+    background-color: #696969;
+}
+.table1 {
+     width: 100% ;
+     height: 50px ;
+     text-align: center ; 
+ }/*настройка ширины ,высоты и расположения текста в таблице 1 */
+ .tabl1_1{
+     width: 100%;
+     height: 30px;
+     background-color: cornsilk;
+ }/*настройка ширины ,высоты и цвета  пустой строки таблицы 1 */
+ .table2 {
+     background-color: #696969 ;
+     width: 20%;
+     height: 100%;
+}/* настройка ширины ,высоты и цвета таблицы 2 */
+a{
+text-decoration: none ;
+}
+
+a:link {
+     color: orange ;
+}
+a:visited {
+     color: blue ;
+}
+a:hover {
+     color : orange ;
+     text-decoration: underline ;
+}
+a:active { 
+     color: orange ;
+     text-decoration: underline ;
+}/* блок для тегов a на всём сайте*/
+
+ .table3 { 
+     background-color: whitesmoke;
+     width: 80%;/* настройка ширины и цвета таблицы 3 */
+}
+.table4 {
+     vertical-align: sub ;
+     text-align: center ;
+     background-color: whitesmoke ;
+     height: 50px  ;/* настройка высоты ,расположения текста, а так же самой тпблицы  и цвета таблицы 4 */
+
+ }
+ .border {
+     border: solid 1px #D3D3D3
+
+ }/* спец. класс для построение рамок в таблицах*/
+ .color {
+     color: orange ;
+ }/* спец. класс для придания цвета небходимым объектам*/
